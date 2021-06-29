@@ -17,7 +17,6 @@ export interface UniversalSearchRequest
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [context?](./answers-core.universalsearchrequest.context.md) | [Context](./answers-core.context.md) | <i>(Optional)</i> Used to trigger Answers [Query Rules](https://hitchhikers.yext.com/tracks/answers-advanced/ans302-query-rules/)<!-- -->. |
-|  [limit?](./answers-core.universalsearchrequest.limit.md) | [Limit](./answers-core.limit.md) | <i>(Optional)</i> The maximum limit of results per vertical. Each limit can be set from 1-50 inclusive. |
 |  [location?](./answers-core.universalsearchrequest.location.md) | [LatLong](./answers-core.latlong.md) | <i>(Optional)</i> The latitude and longitude of the user making the request. Used to bias the results. |
 |  [query](./answers-core.universalsearchrequest.query.md) | string | The search query. |
 |  [querySource?](./answers-core.universalsearchrequest.querysource.md) | [QuerySource](./answers-core.querysource.md) | <i>(Optional)</i> The source of the search request. |

@@ -102,7 +102,6 @@ export class SearchServiceImpl implements SearchService {
       api_key: this.config.apiKey,
       v: defaultApiVersion,
       version: this.config.experienceVersion,
-      limit: JSON.stringify(request.limit || undefined),
       location: request.location?.toString(),
       locale: this.config.locale,
       skipSpellCheck: request.skipSpellCheck,
@@ -168,7 +167,7 @@ export class SearchServiceImpl implements SearchService {
   /**
    * Injects toString() methods into the request objects that require them
    */
-  private injectToStringMethods(request: UniversalSearchRequest|VerticalSearchRequest): void {
+  private injectToStringMethods(request: UniversalSearchRequest): void {
     if (request.location) {
       request.location.toString = function() {
         return `${this.latitude},${this.longitude}`;

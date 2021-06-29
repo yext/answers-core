@@ -55,7 +55,6 @@
 |  [FilterSearchResponse](./answers-core.filtersearchresponse.md) | The response of a filtersearch request. |
 |  [HighlightedValue](./answers-core.highlightedvalue.md) | A field value and its substring matches as emphasized by the Answers API. |
 |  [LatLong](./answers-core.latlong.md) | The latitude and longitude of the user making the request. Used to bias the results. |
-|  [Limit](./answers-core.limit.md) | The maximum limit of results per vertical. Each limit can be set from 1-50 inclusive. |
 |  [LocationBias](./answers-core.locationbias.md) | Information about the user's location. |
 |  [NearFilterValue](./answers-core.nearfiltervalue.md) | A filter value for a filter with a $near [Matcher](./answers-core.matcher.md)<!-- -->. |
 |  [QuestionSubmissionRequest](./answers-core.questionsubmissionrequest.md) | Options for a QuestionSubmission request. |

@@ -223,12 +223,6 @@ export interface LatLong {
 }
 
 // @public
-export interface Limit {
-    // (undocumented)
-    [verticalKey: string]: number;
-}
-
-// @public
 export interface LocationBias {
     displayName: string;
     latitude: number;
@@ -374,7 +368,6 @@ export interface UniversalAutocompleteRequest {
 // @public
 export interface UniversalSearchRequest {
     context?: Context;
-    limit?: Limit;
     location?: LatLong;
     query: string;
     querySource?: QuerySource;
